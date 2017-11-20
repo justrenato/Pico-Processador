@@ -1,0 +1,6 @@
+comandos vhdl rrs17@h2:~/Matérias/segundoSemestre/Projetos/teste$ ghdl -a ha.vhdl 
+rrs17@h2:~/Matérias/segundoSemestre/Projetos/teste$ ghdl -a ha_tb.vhdl 
+rrs17@h2:~/Matérias/segundoSemestre/Projetos/teste$ ghdl -e ha_tb
+rrs17@h2:~/Matérias/segundoSemestre/Projetos/teste$ ghdl -r ha_tb --vcd=ha.vcd
+ha_tb.vhdl:41:16:@5ns:(assertion error): chegou no final do teste
+rrs17@h2:~/Matérias/segundoSemestre/Projetos/teste$ gtkwave ha.vcd 
